@@ -1,8 +1,8 @@
 # Eclipse stuff
-#/.classpath
-#/.project
-#/.settings
-#/.vscode
+/.classpath
+/.project
+/.settings
+/.vscode
 
 # netbeans
 /nbproject
