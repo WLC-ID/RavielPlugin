@@ -1,0 +1,13 @@
+main: me.raviel.NamaPlugin
+name: ${project.artifactId}
+version: ${project.version}
+depend: [RavielLib]
+description: __PLUGIN_DESCRIPTION__
+author: Raviel
+api-version: 1.13
+commands:
+  namacommand:
+    description: command description.
+    default: true
+    aliases: [namacommand2]
+    usage: /<command>

@@ -1,0 +1,13 @@
+# General Messages
+
+general:
+  nametag:
+    prefix: 'Plugin |'
+  type:
+    command: '&7Command'
+    chance: Chance
+    category: Category
+    money: '&6Money'
+    link: '&9Link'
+    free: Free
+
