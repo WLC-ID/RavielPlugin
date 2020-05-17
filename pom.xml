@@ -22,7 +22,7 @@
             <artifactId>RavielLib</artifactId>
             <version>1.0.0</version>
             <scope>system</scope>
-            <systemPath>${basedir}/src/RavielLib-1.0.0.jar</systemPath>
+            <systemPath>${basedir}/src/main/RavielLib-1.0.1.jar</systemPath>
         </dependency>
     </dependencies>
     <properties>
