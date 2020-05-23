@@ -1,10 +1,13 @@
-package me.raviel;
+package me.raviel.namaplugin;
 
 import java.util.List;
 
-import me.raviel.Settings.Settings;
-import me.raviel.configuration.Config;
+import me.raviel.namaplugin.settings.Settings;
+import me.raviel.lib.configuration.Config;
+import me.raviel.lib.RavielLib;
 import me.raviel.lib.RavielPlugin;
+import me.raviel.lib.compatibility.CompatibleMaterial;
+import me.raviel.lib.plugin.PluginInfo;
 
 public class NamaPlugin extends RavielPlugin{
 
@@ -21,6 +24,7 @@ public class NamaPlugin extends RavielPlugin{
 	@Override
 	public void onPluginLoad() {
 		instance = this;
+        RavielLib.register(new PluginInfo(instance, "1.2.0", CompatibleMaterial.BARRIER));
     }
     
 
@@ -28,7 +32,7 @@ public class NamaPlugin extends RavielPlugin{
 	public void onPluginEnable() {
 
         Settings.setupConfig();
-        this.setLocale(Settings.LANGUGE_FILE.getString(), false);
+        this.setLocale(Settings.LANGUAGE_FILE.getString(), false);
 		// TODO
 		
 	}
@@ -46,7 +50,7 @@ public class NamaPlugin extends RavielPlugin{
 
 	@Override
 	public void onConfigReload() {
-        this.setLocale(Settings.LANGUGE_FILE.getString(), true);
+        this.setLocale(Settings.LANGUAGE_FILE.getString(), true);
         // TODO
 	}
 

@@ -1,9 +1,9 @@
-package me.raviel.Settings;
+package me.raviel.namaplugin.settings;
 
-import me.raviel.NamaPlugin;
-import me.raviel.compatibility.CompatibleMaterial;
-import me.raviel.configuration.Config;
-import me.raviel.configuration.ConfigSetting;
+import me.raviel.namaplugin.NamaPlugin;
+import me.raviel.lib.compatibility.CompatibleMaterial;
+import me.raviel.lib.configuration.Config;
+import me.raviel.lib.configuration.ConfigSetting;
 
 public class Settings {
 
@@ -16,7 +16,7 @@ public class Settings {
     public static final ConfigSetting GLASS_TYPE_3 = new ConfigSetting(config, "Interfaces.Glass Type 3", 3);
     
     public static final ConfigSetting SETTINGS = new ConfigSetting(config, "System.Settings", "anything");
-    public static final ConfigSetting LANGUGE_FILE = new ConfigSetting(config, "System.Language", "en_US",
+    public static final ConfigSetting LANGUAGE_FILE = new ConfigSetting(config, "System.Language", "en_US",
             "The enabled language file.",
             "More language files (if available) can be found in the plugins data folder.");
 
