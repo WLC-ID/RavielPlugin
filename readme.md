@@ -1,17 +1,22 @@
 # RavielPlugin Template
-Required: 
+
+## Description
+A Template Project which depend on RavielLib
+
+## Requirements
+
  1. VS-Code + Maven + Java 8
  2. VS-Code Java Extensions
 
-Steps:
+## Cloning:
 
  1. Clone this repository.
- 2. Copy settings from RavielPlugin-settings
+ 2. Copy settings from RavielPlugin-settings (for VS Code)
     ```shell
-    https://github.com/ravielze/RavielPlugin-settings
+    https://github.com/WLC-ID/RavielPlugin-settings
     ```
  3. Edit **.project** and **pom.xml**
- 4. Edit Git Remote URL
+ 4. Edit Git Remote URL (Replace USERNAME and REPOSITORY with your variables)
 	```shell
 	git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 	```
